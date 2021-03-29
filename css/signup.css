@@ -1,0 +1,199 @@
+body{background-color: rgb(184, 184, 184);
+height: 1000px;
+width: 1000px;}
+
+
+.container_singup {
+    background-color: transparent;
+    width: 800px ;
+    height: 450px;
+    transform: translate(50%,3%);
+    border-radius: 12px;
+    overflow: hidden;
+  
+}
+.container_singup .info
+{
+    background-color:#ffd500;
+    
+    margin-right:-30px;
+    color:rgb(0, 0, 0);
+    height: 451px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* justify-content: center; */
+     align-items: center;
+    }
+
+    .container_singup .info img{width: 100px;height: 100px; border-radius:30% ;}
+   
+    .container_singup .info .info_text p{ text-align: center;}
+    .container_singup .info i{font-size: 40px;}
+
+.container_singup .form
+{
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+     text-align: center;
+   text-transform: capitalize;
+   
+    
+}
+.container_singup .form input
+{
+    margin-top: 30px;
+margin-bottom: 22px;
+ outline: none;
+ /* /* background-color: aqua; */
+ /* background-color: lack;  */
+}
+/* .container_singup .form .first-last-name
+{
+    width: 90px;;margin-left: 0px;
+} */
+   
+::placeholder{color: black;}
+.container_singup .form  .ginder
+{
+    display: inline-block;
+}
+
+.container_singup .form  .ginder i
+{
+   margin-right: 40px;
+    font-size: 24px;
+    color: rgb(179, 0, 149);
+    background-color: rgb(255, 219, 60);
+    padding: 7px 13px;
+    border-radius: 50%;
+}
+.container_singup .form  label
+{
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+     
+}
+
+.container_singup .form button
+{
+border: none;
+padding: 8px 33px;
+margin-right: 20px;
+border-radius: 5px;
+
+background-color: #ffd500;
+color: rgb(0, 0, 0);
+font-weight: bold;
+}
+ 
+
+
+.labels 
+{
+    display: flex;
+     
+    align-items: flex-start;
+    flex-direction: column;
+    justify-items: left;
+    margin-top: -200px;
+     
+   
+}
+
+.labels label
+{
+    margin-left: 30px;
+margin-bottom:26px;
+margin-top: 0px;
+}
+.labels label:nth-of-type(1)
+{
+    margin-top: -200px;
+    margin-bottom: 67px;
+}
+.labels label:nth-of-type(2)
+{
+    margin-top: -10px;
+    margin-bottom: 46px;
+
+}
+.labels label:nth-of-type(3)
+{
+    margin-top:4px;
+}
+.labels label:nth-of-type(4)
+{
+    margin-top: 24px;
+}
+.labels label:nth-of-type(5)
+{
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
