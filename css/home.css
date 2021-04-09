@@ -178,7 +178,7 @@ background-image: url(../img/subscribe-our-newsletter-bg.jpg);color:#fff;}
 /* START GALARY PAGE */
 .gallary .shufll img{max-width: 105%;margin-bottom: 15px;}
 /* .gallary  li {cursor: pointer;width: 100%;} */
-.gallary  li{  text-align: center;margin-bottom: 5px;width: 100px;padding: 4px 20px;}
+.gallary  li{  text-align: center;margin-bottom: 5px;width: 100px;padding: 4px 20px;cursor: pointer;}
 /* .gallary  li{border-right:1px solid rgb(170, 170, 170) ;} */
 .gallary  li.li-active,.gallary  li:hover{border-bottom: 2px solid #fdba00;transition: all .2s;}
 /* .gallary  li.active{ ;} */
