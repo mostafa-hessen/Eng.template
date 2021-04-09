@@ -11,6 +11,8 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
         <style>
           .blogs .article-detailes {border: none; border: 1px solid black;}
           .blogs .article-detailes img{    width: -webkit-fill-available;}
@@ -19,6 +21,11 @@
           .let-comment input{outline-style: none;border: none;width: 100%;background-color: #eeee;min-height: 45px;border-radius: 5px;}
           .let-comment textarea{outline-style: none;border: none;width: 100%;margin-bottom:10px ;background-color: #eeee;min-height: 130px;}
           .let-comment button{outline-style: none;border: none;width: 100%;background-color: #ffC557;  border-radius: 5px;padding: 10px;font-weight: bold;}
+          .comment-img img{border-radius:50% ;max-width: 100% }
+        @media(max-width:768px) 
+        {
+            .comment-img img{ width: 20%;margin-bottom: 20px;}
+        }
         </style>
 </head>
 
@@ -86,6 +93,8 @@
   <div class="row">
 
     <div class="col-lg-10 col-md-12  ">
+      
+      <input placeholder=" search" type="search" class="inputsearch" style="width: 70%; border: 1px solid rgba(139, 139, 139, 0.616);"><!--<<i class="fa fa-search"></i>> -->
                   <!-- card1 -->
                   <div class="row blogs-card no-gutters  article-detailes   overflow-hidden flex-md-row mb-4   h-md-250 position-relative">
                     <div class="col-12 ">
@@ -125,11 +134,11 @@
 
                  <h4   style="margin-top: 80px">3 commentes</h4>
                     <div class="row" style="margin-top: 50px;">
-                          <div class="col-lg-2 col-md-2">
-                               <img class="img-circle" style="border-radius:50% ;max-width: 100% " src=" img/profile-img-1.jpg" alt="Image">
+                          <div class="col-lg-2 col-md-2   comment-img ">
+                               <img class="img-circle"   src=" img/profile-img-1.jpg" alt="Image">
                           </div><!-- clcol-lg-2 col-md-2osed-->
 
-                          <div class="col-lg-10 col-md-10">
+                          <div class="col-lg-10 col-md-10 ">
 
                               <div class="comment-metadata">
                                 <h4 class="text-capitalize">mostafa hessen</h4>
@@ -144,8 +153,8 @@
                     </div><!--row closed-->
                   
                     <div class="row" style="margin-top: 70px;">
-                      <div class="col-lg-2 col-md-2">
-                           <img class="img-circle" style="border-radius:50% ;max-width: 100% " src=" img/profile-img-3.jpg" alt="Image">
+                      <div class="col-lg-2 col-md-2  comment-img ">
+                           <img class="img-circle"  src=" img/profile-img-3.jpg" alt="Image">
                       </div><!-- clcol-lg-2 col-md-2osed-->
 
                       <div class="col-lg-10 col-md-10">
@@ -163,8 +172,8 @@
                 </div><!--row closed-->
 
                 <div class="row" style="margin-top: 70px;">
-                  <div class="col-lg-2 col-md-2">
-                       <img class="img-circle" style="border-radius:50% ;max-width: 100% " src=" img/profile-img-1.jpg" alt="Image">
+                  <div class="col-lg-2 col-md-2  comment-img ">
+                       <img class="img-circle"  src=" img/profile-img-1.jpg" alt="Image">
                   </div><!-- clcol-lg-2 col-md-2osed-->
 
                   <div class="col-lg-10 col-md-10">
@@ -196,7 +205,7 @@
   </div>
 
   
-  <div class="col-md-12">
+  <div class="col-md-12 " style="margin-bottom: 40px;">
      <button>send comment</button>
   </div>
 
@@ -208,11 +217,9 @@
 
     </div><!--col-lg-10-->
 
-    <div class="col-lg-2  ">
-
-    <div class="last-postes" >
-            <input placeholder=" search" type="search" class="inputsearch"><!--<<i class="fa fa-search"></i>> -->
-
+        <div class="col-lg-2  ">
+     <div class="last-postes" >
+            
 <ul class="last-shared">
   <h3>last shared</h3>
   <li><a href="#">click her blog title<br><span>24 may, 2021</span></a></li>
@@ -228,16 +235,7 @@
 
 
 
-<ul class="catiogry">
-  <h3>catiogry</h3>
-  <li><a href="#">Meaning Building</a></li>
-  <li><a href="#">Architect</a></li>
-  <li><a href="#">blog</a></li>
-  <li><a href="#">Renovations</a></li>
-  <li><a href="#">  Engineerin</a></li>
-  <li><a href="#">Reconstruction</a></li>
-  
-</ul>
+ 
     </div>
     </div>
 
